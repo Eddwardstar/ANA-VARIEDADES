@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="ANA VARIEDADES — produtos selecionados para deixar sua casa e seu estilo ainda mais especiais."
+    >
+
+    <title>ANA VARIEDADES | Boutique & Variedades</title>
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =====================================================
+         DECORAÇÃO
+         ===================================================== -->
+
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <div class="sparkles" aria-hidden="true">
+        <span>✦</span>
+        <span>·</span>
+        <span>✧</span>
+        <span>·</span>
+        <span>✦</span>
+    </div>
+
+
+    <!-- =====================================================
+         BARRA SUPERIOR
+         ===================================================== -->
+
+    <div class="topbar">
+
+        <p>
+            ✦ Elegância, carinho e variedades para você ✦
+        </p>
+
+        <a
+            href="https://wa.me/5591989009001"
+            target="_blank"
+            rel="noopener"
+        >
+            Fale conosco pelo WhatsApp
+        </a>
+
+    </div>
+
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <a
+                href="#inicio"
+                class="brand"
+                aria-label="ANA VARIEDADES - início"
+            >
+
+                <span class="brand-symbol">
+                    AV
+                </span>
+
+                <span class="brand-text">
+
+                    <strong>
+                        ANA
+                    </strong>
+
+                    <small>
+                        VARIEDADES
+                    </small>
+
+                </span>
+
+            </a>
+
+
+            <nav class="main-nav">
+
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#categorias">
+                    Categorias
+                </a>
+
+                <a href="#produtos">
+                    Produtos
+                </a>
+
+                <a href="#sobre">
+                    Sobre
+                </a>
+
+                <a href="#contato">
+                    Contato
+                </a>
+
+            </nav>
+
+
+            <div class="header-actions">
+
+                <button
+                    class="header-icon"
+                    type="button"
+                    onclick="document.querySelector('#product-search')?.focus()"
+                    aria-label="Pesquisar"
+                >
+                    ⌕
+                </button>
+
+
+                <button
+                    class="cart-button"
+                    type="button"
+                    onclick="abrirCarrinho()"
+                    aria-label="Abrir carrinho"
+                >
+
+                    <span>
+                        🛍
+                    </span>
+
+                    <b id="cart-count">
+                        0
+                    </b>
+
+                </button>
+
+
+                <a
+                    class="header-whatsapp"
+                    href="https://wa.me/5591989009001"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <main>
+
+        <section
+            class="hero"
+            id="inicio"
+        >
+
+           <div class="hero-background">
+
+    <img
+        src="./imagens/banner/banner.jpg"
+        alt="Banner ANA VARIEDADES"
+    >
+
+</div>
+
+            <div class="hero-overlay"></div>
+
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    ✦ ANA VARIEDADES ✦
+                </span>
+
+                <h1>
+                    Pequenos detalhes,
+                    <em>grandes encantos.</em>
+                </h1>
+
+                <p>
+                    Encontre peças escolhidas com carinho
+                    para sua casa, seu estilo e seus momentos
+                    especiais.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#produtos"
+                        class="button button-primary"
+                    >
+                        Explorar produtos
+                        <span>→</span>
+                    </a>
+
+                    <a
+                        href="https://wa.me/5591989009001"
+                        target="_blank"
+                        rel="noopener"
+                        class="button button-light"
+                    >
+                        Falar conosco
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-decoration">
+
+                <span>
+                    01
+                </span>
+
+                <i></i>
+
+                <span>
+                    boutique
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CATEGORIAS
+             ================================================= -->
+
+        <section
+            class="categories-section"
+            id="categorias"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-kicker">
+                        descubra
+                    </span>
+
+                    <h2>
+                        Nossas categorias
+                    </h2>
+
+                </div>
+
+                <p>
+                    Um pouco de tudo aquilo que torna
+                    sua casa e seu estilo ainda mais especiais.
+                </p>
+
+            </div>
+
+
+            <div class="category-grid">
+
+
+                <button
+                    class="category-card category-colchas"
+                    data-category="colchas"
+                    type="button"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="imagens/colchas/colchas1.jpg"
+                            alt="Colchas"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-fallback')"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <span>
+                            01
+                        </span>
+
+                        <h3>
+                            Colchas
+                        </h3>
+
+                        <p>
+                            Conforto & decoração
+                        </p>
+
+                        <b>
+                            Explorar →
+                        </b>
+
+                    </div>
+
+                </button>
+
+
+                <button
+                    class="category-card category-toalhas"
+                    data-category="toalhas"
+                    type="button"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="imagens/toalhas/toalhas1.jpg"
+                            alt="Kit de toalhas"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-fallback')"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <span>
+                            02
+                        </span>
+
+                        <h3>
+                            Toalhas
+                        </h3>
+
+                        <p>
+                            Maciez & cuidado
+                        </p>
+
+                        <b>
+                            Explorar →
+                        </b>
+
+                    </div>
+
+                </button>
+
+
+                <button
+                    class="category-card category-perfumes"
+                    data-category="perfumes"
+                    type="button"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="imagens/perfumes/perfumes1.jpg"
+                            alt="Perfumes"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-fallback')"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <span>
+                            03
+                        </span>
+
+                        <h3>
+                            Perfumes
+                        </h3>
+
+                        <p>
+                            Fragrâncias & presença
+                        </p>
+
+                        <b>
+                            Explorar →
+                        </b>
+
+                    </div>
+
+                </button>
+
+
+                <button
+                    class="category-card category-lingerie"
+                    data-category="lingerie"
+                    type="button"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="imagens/lingerie/lingerie1.jpg"
+                            alt="Lingerie"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-fallback')"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <span>
+                            04
+                        </span>
+
+                        <h3>
+                            Lingerie
+                        </h3>
+
+                        <p>
+                            Delicadeza & conforto
+                        </p>
+
+                        <b>
+                            Explorar →
+                        </b>
+
+                    </div>
+
+                </button>
+
+
+                <button
+                    class="category-card category-joias"
+                    data-category="joias"
+                    type="button"
+                >
+
+                    <div class="category-image">
+
+                        <img
+                            src="imagens/joias/joias1.jpg"
+                            alt="Joias"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-fallback')"
+                        >
+
+                    </div>
+
+                    <div class="category-content">
+
+                        <span>
+                            05
+                        </span>
+
+                        <h3>
+                            Joias
+                        </h3>
+
+                        <p>
+                            Brilho & delicadeza
+                        </p>
+
+                        <b>
+                            Explorar →
+                        </b>
+
+                    </div>
+
+                </button>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PRODUTOS
+             ================================================= -->
+
+        <section
+            class="products-section"
+            id="produtos"
+        >
+
+            <div class="products-top">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-kicker">
+                            seleção especial
+                        </span>
+
+                        <h2>
+                            Nossos produtos
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="search-box">
+
+                    <span>
+                        ⌕
+                    </span>
+
+                    <input
+                        type="search"
+                        id="product-search"
+                        placeholder="Buscar um produto..."
+                        autocomplete="off"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="filter-row">
+
+                <button
+                    class="filter-button"
+                    data-category="todos"
+                    type="button"
+                >
+                    Todos
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="colchas"
+                    type="button"
+                >
+                    Colchas
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="toalhas"
+                    type="button"
+                >
+                    Toalhas
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="perfumes"
+                    type="button"
+                >
+                    Perfumes
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="lingerie"
+                    type="button"
+                >
+                    Lingerie
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="joias"
+                    type="button"
+                >
+                    Joias
+                </button>
+
+            </div>
+
+
+            <div
+                class="products-container"
+                id="products-container"
+            >
+                <!-- Produtos criados pelo JavaScript -->
+            </div>
+
+
+            <div class="products-bottom">
+
+                <button
+                    class="outline-button"
+                    type="button"
+                    data-show-all
+                >
+                    Ver todos os produtos
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             DESTAQUE
+             ================================================= -->
+
+        <section class="highlight-section">
+
+            <div class="highlight-decoration">
+                ✦
+            </div>
+
+            <div class="highlight-content">
+
+                <span>
+                    uma experiência especial
+                </span>
+
+                <h2>
+                    Beleza nos detalhes.
+                </h2>
+
+                <p>
+                    Na ANA VARIEDADES, cada escolha é feita
+                    pensando em transformar pequenas coisas
+                    em momentos especiais.
+                </p>
+
+                <a
+                    href="#contato"
+                    class="text-link"
+                >
+                    Conheça a nossa loja →
+                </a>
+
+            </div>
+
+
+            <div class="highlight-side">
+
+                <div class="highlight-circle">
+                    AV
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SOBRE
+             ================================================= -->
+
+        <section
+            class="about-section"
+            id="sobre"
+        >
+
+            <div class="about-visual">
+
+                <div class="about-frame">
+
+                    <div class="about-inner">
+
+                        <span>
+                            ANA
+                        </span>
+
+                        <strong>
+                            VARIEDADES
+                        </strong>
+
+                        <small>
+                            carinho em cada escolha
+                        </small>
+
+                    </div>
+
+                </div>
+
+                <div class="about-stamp">
+                    ✦<br>
+                    AV
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <span class="section-kicker">
+                    nossa essência
+                </span>
+
+                <h2>
+                    Uma loja feita
+                    com carinho.
+                </h2>
+
+                <p>
+                    A ANA VARIEDADES nasceu para reunir
+                    produtos escolhidos com cuidado, beleza
+                    e atenção aos pequenos detalhes.
+                </p>
+
+                <p>
+                    Aqui você encontra opções para sua casa,
+                    seu estilo e para presentear alguém especial.
+                </p>
+
+
+                <div class="about-signature">
+
+                    <span>
+                        Com carinho,
+                    </span>
+
+                    <strong>
+                        Ana
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             BENEFÍCIOS
+             ================================================= -->
+
+        <section class="benefits-section">
+
+            <div class="benefit">
+
+                <span class="benefit-icon">
+                    ✦
+                </span>
+
+                <div>
+
+                    <h3>
+                        Escolha com carinho
+                    </h3>
+
+                    <p>
+                        Produtos selecionados com atenção.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <span class="benefit-icon">
+                    ♡
+                </span>
+
+                <div>
+
+                    <h3>
+                        Atendimento próximo
+                    </h3>
+
+                    <p>
+                        Tire suas dúvidas pelo WhatsApp.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <span class="benefit-icon">
+                    ✧
+                </span>
+
+                <div>
+
+                    <h3>
+                        Pedido personalizado
+                    </h3>
+
+                    <p>
+                        Consulte disponibilidade e valores.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             GALERIA
+             ================================================= -->
+
+        <section class="gallery-section">
+
+            <div class="section-heading gallery-heading">
+
+                <div>
+
+                    <span class="section-kicker">
+                        inspiração
+                    </span>
+
+                    <h2>
+                        Um toque de encanto
+                    </h2>
+
+                </div>
+
+                <p>
+                    Beleza que combina com diferentes momentos.
+                </p>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item gallery-large">
+
+                    <img
+                        src="imagens/geral/foto1.jpg"
+                        alt="ANA VARIEDADES"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('gallery-fallback')"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img
+                        src="imagens/geral/foto2.jpg"
+                        alt="Produtos ANA VARIEDADES"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('gallery-fallback')"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img
+                        src="imagens/geral/foto3.jpg"
+                        alt="Produtos ANA VARIEDADES"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('gallery-fallback')"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item gallery-wide">
+
+                    <img
+                        src="imagens/geral/foto4.jpg"
+                        alt="ANA VARIEDADES"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('gallery-fallback')"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONTATO
+             ================================================= -->
+
+        <section
+            class="contact-section"
+            id="contato"
+        >
+
+            <div class="contact-card">
+
+                <div class="contact-content">
+
+                    <span class="section-kicker">
+                        vamos conversar?
+                    </span>
+
+                    <h2>
+                        Encontrou algo
+                        que gostou?
+                    </h2>
+
+                    <p>
+                        Fale com a ANA VARIEDADES pelo WhatsApp
+                        para consultar valores, disponibilidade
+                        e detalhes dos produtos.
+                    </p>
+
+
+                    <a
+                        href="https://wa.me/5591989009001"
+                        target="_blank"
+                        rel="noopener"
+                        class="contact-button"
+                    >
+                        Conversar pelo WhatsApp
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+
+                <div class="contact-decoration">
+
+                    <div class="contact-orbit">
+
+                        <span>
+                            AV
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         WHATSAPP FLUTUANTE
+         ===================================================== -->
+
+    <a
+        href="https://wa.me/5591989009001"
+        target="_blank"
+        rel="noopener"
+        class="floating-whatsapp"
+        aria-label="Falar com a ANA VARIEDADES pelo WhatsApp"
+    >
+
+        <span>
+            ☎
+        </span>
+
+    </a>
+
+
+    <!-- =====================================================
+         MODAL DO CARRINHO
+         ===================================================== -->
+
+    <div
+        class="modal-overlay"
+        id="cart-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="cart-title"
+    >
+
+        <div class="modal-card cart-modal-card">
+
+            <button
+                class="modal-close"
+                type="button"
+                onclick="fecharCarrinho()"
+                aria-label="Fechar carrinho"
+            >
+                ×
+            </button>
+
+
+            <div class="modal-heading">
+
+                <span>
+                    seu pedido
+                </span>
+
+                <h2 id="cart-title">
+                    Carrinho
+                </h2>
+
+            </div>
+
+
+            <div
+                id="cart-items"
+                class="cart-items"
+            >
+                <!-- JavaScript -->
+            </div>
+
+
+            <div class="cart-summary">
+
+                <div>
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="cart-total">
+                        Consultar
+                    </strong>
+
+                </div>
+
+
+                <p>
+                    O valor será confirmado pelo WhatsApp.
+                </p>
+
+
+                <button
+                    class="checkout-button"
+                    type="button"
+                    onclick="abrirCheckout()"
+                >
+                    Continuar pedido
+                    <span>→</span>
+                </button>
+
+
+                <button
+                    class="clear-cart-button"
+                    type="button"
+                    onclick="limparCarrinho()"
+                >
+                    Limpar carrinho
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MODAL DE CHECKOUT
+         ===================================================== -->
+
+    <div
+        class="modal-overlay"
+        id="checkout-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="checkout-title"
+    >
+
+        <div class="modal-card checkout-modal-card">
+
+            <button
+                class="modal-close"
+                type="button"
+                onclick="fecharCheckout()"
+                aria-label="Fechar"
+            >
+                ×
+            </button>
+
+
+            <div class="modal-heading">
+
+                <span>
+                    quase lá ✦
+                </span>
+
+                <h2 id="checkout-title">
+                    Finalizar pedido
+                </h2>
+
+                <p>
+                    Preencha seus dados e enviaremos
+                    o pedido para o WhatsApp da loja.
+                </p>
+
+            </div>
+
+
+            <form id="checkout-form">
+
+                <div class="form-group">
+
+                    <label for="customer-name">
+                        Seu nome
+                    </label>
+
+                    <input
+                        type="text"
+                        id="customer-name"
+                        placeholder="Como podemos te chamar?"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="payment-method">
+                        Forma de pagamento
+                    </label>
+
+                    <select
+                        id="payment-method"
+                        required
+                    >
+
+                        <option value="">
+                            Selecione uma opção
+                        </option>
+
+                        <option value="Pix">
+                            Pix
+                        </option>
+
+                        <option value="Cartão">
+                            Cartão
+                        </option>
+
+                        <option value="Dinheiro">
+                            Dinheiro
+                        </option>
+
+                        <option value="A combinar">
+                            A combinar
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="customer-observation">
+                        Observação
+                    </label>
+
+                    <textarea
+                        id="customer-observation"
+                        rows="4"
+                        placeholder="Alguma observação sobre seu pedido?"
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    class="checkout-submit"
+                    type="submit"
+                >
+                    Enviar pedido pelo WhatsApp
+                    <span>↗</span>
+                </button>
+
+
+                <small class="checkout-note">
+                    Você será redirecionado para o WhatsApp
+                    da ANA VARIEDADES.
+                </small>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         TOAST
+         ===================================================== -->
+
+    <div
+        id="toast"
+        class="toast"
+        role="status"
+        aria-live="polite"
+    ></div>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <a
+                    href="#inicio"
+                    class="brand footer-logo"
+                >
+
+                    <span class="brand-symbol">
+                        AV
+                    </span>
+
+                    <span class="brand-text">
+
+                        <strong>
+                            ANA
+                        </strong>
+
+                        <small>
+                            VARIEDADES
+                        </small>
+
+                    </span>
+
+                </a>
+
+
+                <p>
+                    Beleza, carinho e variedades
+                    em cada escolha.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Navegação
+                </h3>
+
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#categorias">
+                    Categorias
+                </a>
+
+                <a href="#produtos">
+                    Produtos
+                </a>
+
+                <a href="#sobre">
+                    Sobre
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Categorias
+                </h3>
+
+                <a href="#produtos">
+                    Colchas
+                </a>
+
+                <a href="#produtos">
+                    Toalhas
+                </a>
+
+                <a href="#produtos">
+                    Perfumes
+                </a>
+
+                <a href="#produtos">
+                    Lingerie
+                </a>
+
+                <a href="#produtos">
+                    Joias
+                </a>
+
+            </div>
+
+
+            <div class="footer-column footer-contact">
+
+                <h3>
+                    Contato
+                </h3>
+
+                <a
+                    href="https://wa.me/5591989009001"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    +55 (91) 98900-9001
+                </a>
+
+                <span>
+                    Atendimento pelo WhatsApp
+                </span>
+
+                <a
+                    href="https://wa.me/5591989009001"
+                    target="_blank"
+                    rel="noopener"
+                    class="footer-whatsapp"
+                >
+                    Falar conosco →
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 ANA VARIEDADES
+            </span>
+
+            <span>
+                Feito com carinho ✦
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
